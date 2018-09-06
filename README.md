@@ -1,5 +1,5 @@
 # unlock-caps
-This is my personal repo of the MVP application that I, as part of a team of four, built for a local Austin startup over the course of four weeks: KeyUp Austin.
+This is the repo of the MVP application that we, a team of four, built for a local Austin startup over the course of four weeks: KeyUp Austin.
 This application serves as a way to connect lower-income students with middle-class career paths and training services to receive
 the necessary certifications.
 
@@ -7,6 +7,7 @@ Team Members:
 - [Brian Hickey](https://github.com/bphicke)
 - [Elyse Vest](https://github.com/evest90)
 - [Mason Hunter](https://github.com/Hunterist12)
+- [Nicole Nguyen](https://github.com/nicole-nguyen1)
 
 ## Motivation
 When trying to decide what we wanted to work on for our thesis project at Hack Reactor, our instructor pitched KeyUp's need and product
@@ -14,8 +15,7 @@ to us. We jumped at the opportunity to build their MVP because it would give us 
 we knew that the app would actually be used by people - KeyUp's plan is to get this in the hands of 20,000 users in 2019.
 
 ## Demo
-- Check out the app [here](https://key-up-demo-nicole.herokuapp.com/home).
-- KeyUp's deployment can be found [here](http://keyup.services).
+- We deployed KeyUp's application [here on their domain](http://keyup.services).
 
 ## Tech Stack
 Built with
@@ -49,12 +49,12 @@ npm run dev
 You may contribute by following the below steps:
 
 ### Git setup
-1. Fork from https://github.com/nicole-nguyen1/unlock-caps.git.
+1. Fork from https://github.com/lock-down/unlock-caps.git.
 2. Clone from your repo.
 3. Add remote.
 
 ```
-git remote add upstream https://github.com/nicole-nguyen1/unlock-caps.git
+git remote add upstream https://github.com/lock-down/unlock-caps.git
 ```
 
 ### Git workflow

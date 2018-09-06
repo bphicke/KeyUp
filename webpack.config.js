@@ -15,12 +15,15 @@ var config = {
       {
         test: /\.jsx?/,
         include: APP_DIR,
-        use: {
-          loader: 'babel-loader'
-        }
+        use: ['babel-loader']
       }
     ]
-  }
+  },
+  plugins: [
+    new webpack.DefinePlugin({ 'process.env': {
+      FB_APP_ID: JSON.stringify(`${process.env.FB_APP_ID}`) }
+    })
+  ]
 };
 
 module.exports = config;
